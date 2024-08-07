@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -37,4 +38,19 @@ a:hover {
 
 h1, h2, h3 {
     font: inherit;
+}
+
+
+.container{
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
 }
