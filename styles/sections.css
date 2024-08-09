@@ -33,6 +33,11 @@ section header {
         grid-template-columns: repeat(4, 292px);
     }
 
+    img{
+        height: 160px;
+        border-radius: 4px;
+    }
+
     figure {
         position: relative;
 
@@ -45,10 +50,6 @@ section header {
         p {
             margin-top: 8px;
             font-weight: 700;
-        }
-
-        img {
-            border-radius: 4px;
         }
     }
 }
